@@ -1,0 +1,5 @@
+@import 'reset.css'; /* CSS 기본 스타일 초기화를 위한 reset CSS */
+
+h1 {
+  color: red;
+}
