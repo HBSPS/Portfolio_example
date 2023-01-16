@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Portfolio_Maker</title>
-  <link rel="icon" type="image/x-icon" href="/img/favicon.png"> <!--favicon 넣기-->
-  <link rel="stylesheet" href="styles/style.css"> <!--stylesheet 외부에서 불러오기-->
-</head>
-<body>
-  <h1>Hello World!</h1>
-</body>
+  <head>
+    <title>Portfolio_Maker</title>
+    <!--favicon 넣기-->
+    <link rel="icon" type="image/x-icon" href="/img/favicon.png" />
+    <!--stylesheet 외부에서 불러오기-->
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="left">
+        <img id="profile" src="img/미모티콘_개발.png" alt="profileImg" />
+        <h1 id="name_en">Wiyeong Seo</h1>
+        <h2 id="name_ko">서위영</h2>
+        <div id="skills">
+          <h1 class="title">Skills</h1>
+          <ul id="skills_list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript, TypeScript</li>
+            <li>Python</li>
+            <li>NodeJS, Express, NestJS, ReactJS</li>
+            <li>MySQL</li>
+            <li>AWS EC2, RDS</li>
+          </ul>
+        </div>
+        <div id="github">
+          <a href="https://github.com/HBSPS" target="_blank"><img id="github" src="img/github.png" alt="github"></a>
+        </div>
+      </div>
+      <div class="right">
+        <div class="introduction">
+          <h1 class="title">Constant Learning with Communication!</h1>
+          <p class="introduction-content">안녕하세요! 끊임없이 배우고 싶은 개발자 서위영입니다.</p>
+          <p class="introduction-content">창의적인 생각으로 세상을 더 편리하고 재미있도록 만들기 위해 끊임없이 배우고 노력하겠습니다!</p>
+        </div>
+        <div class="portfolio">
+          <h1 class="title">Portfolio</h1>
+        </div>
+        <div class="education">
+          <h1 class="title">Education & Experience</h1>
+          <ul id="experience">
+            <li>(2016) 공주대학교 정보보호 영재교육원</li>
+            <li>(2019) 중앙대학교 산업보안학과 입학</li>
+            <li>(2019) 중앙대학교 사이버보안 융합전공</li>
+            <li>(2022) UMC 2기 중앙대</li>
+            <li>(2022) PwC RA (Research Assistant) - S카드 IT 컨설팅</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

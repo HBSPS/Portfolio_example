@@ -1,5 +1,96 @@
 @import 'reset.css'; /* CSS 기본 스타일 초기화를 위한 reset CSS */
 
-h1 {
-  color: red;
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.left {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid black;
+}
+
+#profile {
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+#name_en {
+  font-size: 2vw;
+  padding-top: 50px;
+  font-weight: bold;
+}
+
+#name_ko {
+  margin-top: 1.5vw;
+  font-size: 0.8vw;
+  padding-bottom: 2vw;
+}
+
+#skills {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+#skills_list {
+  margin-top: 2vw;
+}
+
+li {
+  margin-bottom: 0.8vw;
+  font-size: 0.8vw;
+}
+
+#github {
+  width: 2vw;
+  height: 2vw;
+  margin-top: 1vw;
+}
+
+.right {
+  padding: 0 5vw 0 5vw;
+  width: 70%;
+}
+
+.introduction {
+  padding-bottom: 2vw;
+  border-bottom: 2px solid black;
+}
+
+.introduction-content {
+  margin-top: 2vw;
+  font-size: 0.8vw;
+}
+
+.title {
+  font-size: 1.5vw;
+  font-weight: bold;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.content {
+  margin-top: 2vw;
+  font-size: 1vw;
+}
+
+.portfolio {
+  padding-bottom: 2vw;
+  border-bottom: 2px solid black;
+}
+
+#experience {
+  list-style: circle;
+  margin-left: 2vw;
 }
